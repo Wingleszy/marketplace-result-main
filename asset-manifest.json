@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marketplace-result-main/static/css/main.558d22cc.css",
-    "main.js": "/marketplace-result-main/static/js/main.b2d34356.js",
+    "main.css": "/marketplace-result-main/static/css/main.b535a2fb.css",
+    "main.js": "/marketplace-result-main/static/js/main.f20401dd.js",
     "static/media/Picsart_24-02-26_18-37-11-024.png": "/marketplace-result-main/static/media/Picsart_24-02-26_18-37-11-024.04c230be2648c7065f14.png",
     "static/media/Picsart_24-02-26_19-34-45-025.png": "/marketplace-result-main/static/media/Picsart_24-02-26_19-34-45-025.a6225ed64eb700b8071f.png",
     "static/media/Picsart_24-02-26_19-23-18-704.png": "/marketplace-result-main/static/media/Picsart_24-02-26_19-23-18-704.1d5edde606164674a7e8.png",
@@ -54,11 +54,11 @@
     "static/media/Arrow - Left.svg": "/marketplace-result-main/static/media/Arrow - Left.b28b6f58cf9c5829e574ba6d9268b690.svg",
     "static/media/Vector (6).svg": "/marketplace-result-main/static/media/Vector (6).b980d16cc13ace018ec74eca09c2bb6a.svg",
     "index.html": "/marketplace-result-main/index.html",
-    "main.558d22cc.css.map": "/marketplace-result-main/static/css/main.558d22cc.css.map",
-    "main.b2d34356.js.map": "/marketplace-result-main/static/js/main.b2d34356.js.map"
+    "main.b535a2fb.css.map": "/marketplace-result-main/static/css/main.b535a2fb.css.map",
+    "main.f20401dd.js.map": "/marketplace-result-main/static/js/main.f20401dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.558d22cc.css",
-    "static/js/main.b2d34356.js"
+    "static/css/main.b535a2fb.css",
+    "static/js/main.f20401dd.js"
   ]
 }
