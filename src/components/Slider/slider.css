@@ -1,7 +1,135 @@
 .main__slider {
     margin: 0 0 42px 0;
+    position: relative;
 }
 
-.main__slider img{
+.slider__bg{
     width: 100%;
+}
+
+.slider__desc {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    background: linear-gradient(90.88deg, rgba(236, 224, 181, 0.84) 6.91%, rgba(236, 224, 181, 0.45) 95.81%);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider__desc_text {
+    border-right: 1px solid white;
+    padding: 20px;
+    flex: 1 1 ;
+}
+
+.slider__images {
+    flex: 1 1 ;
+}
+
+.images__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.slider__desc_text h3 {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: start;
+}
+
+.slider__desc_text button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F79E1B;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.slider__desc_text button img {
+    width: 20px;
+    height: 10px;
+    padding: 5px;
+}
+
+.row__box {
+    background-color: #ECE0B5;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.reversed .row__box {
+    background-color: #B3AB73;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 900px ) {
+    .slider__desc {
+        width: 75%;
+    }
+}
+
+@media (max-width: 700px ) {
+    .slider__desc_text h3 {
+        font-size: 16px;
+    }
+
+    .images__row img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .slider__desc_text button {
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .slider__desc_text {
+        padding: 3px;
+    }
+
+    .slider__desc_text button img{
+        width: 10px;
+        padding: 0;
+    }
+    .slider__desc_text h3 {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px ) {
+    
+    .slider__desc_text h3 {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    
+    .images__row img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .row__box {
+        width: 35px;
+        height: 35px;
+    }
 }
