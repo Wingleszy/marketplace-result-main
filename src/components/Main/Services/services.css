@@ -1,0 +1,154 @@
+.services {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px 53px 15px;
+}
+
+.services_title {
+    display: inline-block;
+    border-radius: 99px;
+    margin: 0 0 33px 0;
+    color: #67430C;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+
+}
+.services_title h2 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.services-grid{
+    height: 350px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.services-grid__items {
+    
+    border-radius: 16px;
+    border: .5px solid #67430c86 ;
+    /* min-height: 125px; */
+    height: auto;
+}
+
+.services-grid__items-holder{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-image:linear-gradient(180deg, rgba(236,224,181,1) 0%, rgba(236,224,181,0) 100%);
+}
+.services-grid__items-holder-end{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-image:linear-gradient(365deg, rgba(236,224,181,1) 0%, rgba(236,224,181,0) 100%);
+    
+}
+
+.services-grid__items-title{
+    color: #67430C;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 23px;
+   
+}
+.services-grid__items-title-end{
+    color: #67430C;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 23px;
+}
+
+
+.services-grid__items_agro{
+    background-image: url(../../../img/services-agro.jpg);
+    background-size:cover;
+}
+
+.services-grid__items_hotel{    
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(../../../img/services-hotel.jpg);
+    background-size: cover;
+}
+
+.services-grid__items_profcom{
+    background-image: url(../../../img/services-profcom.jpg);
+    background-size: cover;
+}
+.services-grid__items_university{
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background-image: url(../../../img/services-univ.jpg);
+    background-size:cover;
+}
+
+.services-grid__items_vet{ 
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-image: url(../../../img/services-vet.jpg);
+    background-size: cover;
+}
+
+.services-grid__items_carshcool{
+    background-image: url(../../../img/services-car.jpg);
+    background-size: cover;
+    
+}
+
+.services-grid__items_logo{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-image: url(../../../img/services-logo.jpg);
+    background-size: cover;
+}
+
+.services-list {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+    .services-grid{
+        display: none;
+    }
+
+    .services_title h2 {
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .services-grid__items-title,
+    .services-grid__items-title-end {
+        font-size: 16px;
+    }
+
+    .services-list {
+        display: block;
+    }
+
+    .services-list-link {
+        color: #67430C;
+        text-decoration: none;
+    }
+
+    .services-list-link-bg{
+        border-radius: 16px;
+        background-color: #fff;
+        padding: 15px;
+        margin: 20px 0;
+    }
+
+    .services-list-link-bg{
+        font-size: 10px;
+    }
+}

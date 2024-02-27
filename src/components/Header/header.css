@@ -1,0 +1,139 @@
+header {
+    margin: 0 0 25px 0;
+    
+}
+
+.header-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    background: #D6C698;
+    
+    max-width: 1145px;
+    height: 58px;
+    padding: 0 5px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+
+.header__form{
+    display: flex;
+    align-items: center;
+    
+    height: 33px;
+    margin: 0 0 0 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #fff;
+}
+
+.header__form-input{
+    width: 810px;
+    height: 33px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.header__form-btn{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.header__account {
+    display: flex;
+}
+.header__account p {
+    font-size: 13px;
+    margin: 0 0 0 12px;
+}
+
+@media (max-width:1249px) {
+
+    .header__form-input{
+        width: 600px;
+       
+    }
+}
+@media (max-width:1000px) {
+
+    .header-field {
+        width: auto;
+        height: 33px;
+        padding: 5px 5px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        
+    }
+
+    .header__form{
+        display: flex;
+        align-items: center;
+        
+        height: 23px;
+        margin: 0 0 0 30px;
+        padding: 0 10px;
+        border-radius: 6px;
+        border: 0;
+        background-color: #fff;
+    }
+
+    .header__form-input{
+        width: 400px;
+        height: 23px;
+        justify-content: space-between;
+       
+    }
+
+    .header__form-btn,
+    .header__form-btn img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .header__account p {
+        display: none;
+    }
+
+    .header__form-input{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width:800px) {
+
+    .header__form-input{
+        width: 200px;
+       
+    }
+
+    .header__account_img,
+    .header__favorite_img, 
+    .header__favorite_cart {
+        height: 15px;
+
+    }
+}
+
+@media (max-width:550px) {
+
+    .header__form-input{
+        width: 100px;
+       
+    }
+}
+
+@media (max-width:440px) {
+
+    .header__form-input{
+        width: 50px;
+       
+    }
+}
