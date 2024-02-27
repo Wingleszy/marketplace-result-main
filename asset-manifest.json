@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marketplace-result-main/static/css/main.b535a2fb.css",
-    "main.js": "/marketplace-result-main/static/js/main.f20401dd.js",
+    "main.css": "/marketplace-result-main/static/css/main.317e8284.css",
+    "main.js": "/marketplace-result-main/static/js/main.f31093c0.js",
     "static/media/Picsart_24-02-26_18-37-11-024.png": "/marketplace-result-main/static/media/Picsart_24-02-26_18-37-11-024.04c230be2648c7065f14.png",
     "static/media/Picsart_24-02-26_19-34-45-025.png": "/marketplace-result-main/static/media/Picsart_24-02-26_19-34-45-025.a6225ed64eb700b8071f.png",
     "static/media/Picsart_24-02-26_19-23-18-704.png": "/marketplace-result-main/static/media/Picsart_24-02-26_19-23-18-704.1d5edde606164674a7e8.png",
@@ -28,6 +28,8 @@
     "static/media/services-car.jpg": "/marketplace-result-main/static/media/services-car.4751bf7cdf95f0e361a8.jpg",
     "static/media/services-profcom.jpg": "/marketplace-result-main/static/media/services-profcom.025331ce0bcdfcc4743d.jpg",
     "static/media/avocad.jpg": "/marketplace-result-main/static/media/avocad.4e91bb06cb95000d1a48.jpg",
+    "static/media/Rectangle 6 (1).png": "/marketplace-result-main/static/media/Rectangle 6 (1).a9b5c550a511508c80c0.png",
+    "static/media/Rectangle 5 (1).png": "/marketplace-result-main/static/media/Rectangle 5 (1).200b0a3670028f70a34e.png",
     "static/media/card-grape.jpg": "/marketplace-result-main/static/media/card-grape.fb73c97b0e530f0e305a.jpg",
     "static/media/Header-logo.png": "/marketplace-result-main/static/media/Header-logo.dda9b7c7dae36ba37810.png",
     "static/media/agrarniyLogo.png": "/marketplace-result-main/static/media/agrarniyLogo.a15a3e0558d0cee0bc3a.png",
@@ -54,11 +56,12 @@
     "static/media/Arrow - Left.svg": "/marketplace-result-main/static/media/Arrow - Left.b28b6f58cf9c5829e574ba6d9268b690.svg",
     "static/media/Vector (6).svg": "/marketplace-result-main/static/media/Vector (6).b980d16cc13ace018ec74eca09c2bb6a.svg",
     "index.html": "/marketplace-result-main/index.html",
-    "main.b535a2fb.css.map": "/marketplace-result-main/static/css/main.b535a2fb.css.map",
-    "main.f20401dd.js.map": "/marketplace-result-main/static/js/main.f20401dd.js.map"
+    "static/media/Link.svg": "/marketplace-result-main/static/media/Link.af2a23c20880412a7419ed88320dcc18.svg",
+    "main.317e8284.css.map": "/marketplace-result-main/static/css/main.317e8284.css.map",
+    "main.f31093c0.js.map": "/marketplace-result-main/static/js/main.f31093c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b535a2fb.css",
-    "static/js/main.f20401dd.js"
+    "static/css/main.317e8284.css",
+    "static/js/main.f31093c0.js"
   ]
 }
