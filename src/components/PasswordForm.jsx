@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const PasswordForm = () => {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,7 +18,10 @@ export const PasswordForm = () => {
         body: JSON.stringify({ login, password, confirmPassword }),
       });
       const data = await response.json();
-      await alert(data.message)
+      alert(data.message)
+      if (data.message == "Пользователь успешно зарегистрирован") {
+        navigate("/login")
+      }
     } catch (error) {
       console.error('Error:', error);
     }
@@ -24,7 +29,10 @@ export const PasswordForm = () => {
 
   return (
     <div className="registration__container">
-      <form action="" className='registration__form' onSubmit={handleSubmit}>
+      <form action="" className='registration__form' onSubmit={(event) => {
+        handleSubmit(event)
+      }
+        }>
         <h2 className='password__form__name'>Защитите свой аккаунт</h2>
         <h4>придумайте логин и пароль</h4>
         <input

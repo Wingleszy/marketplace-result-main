@@ -24,14 +24,14 @@ export const StyledHeader = () => {
             <img src={searchImg} alt="" className='header__search_btn'/>
             </div>
             <div className="header__links">
-            <div className="header__account">
+            <Link to={"/password"} className="header__account">
                 <img src={accountImg} alt="" className="header__account_img"/>
                 <div className="header__account_wrap">
                     <span className='header__account_desc'>Учетная</span>
                     <br />
                     <span className='header__account_desc_second-line'>Запись</span>
                 </div>
-            </div>
+            </Link>
             <div className="header__likes">
                 <img src={likesImg} alt="" />
                 <div><span>1</span></div>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,6 +18,9 @@ export const LoginForm = () => {
       });
       const data = await response.json();
       await alert(data.message)
+      if(data.message == "Пользователь корректен") {
+        navigate("/agroStore")
+      }
     } catch (error) {
       console.error('Error:', error);
     }
