@@ -804,6 +804,12 @@ body {
     height: auto;
     padding: 63px 0;
 }
+
+@media (max-width: 1200px) {
+    .main-field {
+        width: 100%;
+    }
+}
   /* Slider */
 
 .main__slider {
@@ -813,7 +819,7 @@ body {
   /* Services */
 
 .services {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 

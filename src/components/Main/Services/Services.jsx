@@ -76,7 +76,7 @@ export default function Services() {
           </a>
           <a href="" className="services-list-link">
             <div className="services-list-link-bg">
-              <h3></h3>
+              <h3>Социальные сети</h3>
             </div>
           </a>
           <a href="" className="services-list-link">
